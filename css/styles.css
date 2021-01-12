@@ -46,10 +46,21 @@
 *::after {
   box-sizing: border-box;
 }
-
 .red{
-  color: rgb(59, 174, 194);
+  color: red;
+}
+.bred{
+  color: #824027;
+}
+.blue{
+  color: rgb(59, 174, 194) !important;
   margin-bottom: 25px;
+}
+.blue:hover{
+  color: red !important;
+}
+a{
+  text-decoration: underline !important;
 }
 p{
   color: white;
@@ -57,7 +68,7 @@ p{
   h2,h1{
     color:white !important;
   }
-  h3{
+  h3,.lname{
     color:  rgb(59, 174, 194) !important;
   }
   h1{
@@ -228,7 +239,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color:red ;
   text-decoration: underline;
 }
 
@@ -9848,11 +9859,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: red !important;
+  color: rgb(204, 71, 175) !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #824027 !important;
+  color: #e644c2 !important;
 }
 
 .text-secondary {
